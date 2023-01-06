@@ -1,0 +1,72 @@
+@import url('/normalize.css');
+
+/* Index Page */
+       
+body{
+        text-align: center;
+        display: flex;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .btn{
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 5px ;
+        }
+
+        .btn--download{
+            margin-top: 10px;
+            padding: 10px 50px;
+            border: none;
+            background-color: lightskyblue;
+        }
+
+        .youtube-url input{
+            border: none;
+            outline: none;
+            width: 100%;
+        }
+        
+        .youtube-url{
+            border-radius: 5px;
+            border: 2px solid grey;
+            width: 90vw;
+            padding: 5px;
+            max-width: 500px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+/* Download Page */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+select{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: skyblue;
+    font-weight: 700;
+}
+
+.btn--download--final{
+    background-color: green;
+    color: white;
+    width: 90vw;
+    max-width: 1000px;
+}
